@@ -6,7 +6,7 @@ pipeline{
 stages {
      stage ("Git Checkout"){
           steps{
-              git credentialsId: 'javaproject1', url: 'https://github.com/prem170/JavaCalculator.git'
+              git credentialsId: 'javaproject1', url: 'https://github.com/prem170/JavaWebCalculator.git'
           }
      }
      stage ("Maven Build"){
